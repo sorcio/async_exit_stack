@@ -7,6 +7,8 @@
 .. image:: https://img.shields.io/travis/sorcio/async_exit_stack.svg
         :target: https://travis-ci.org/sorcio/async_exit_stack
 
+.. image:: https://codecov.io/gh/sorcio/async_exit_stack/branch/master/graph/badge.svg
+  :target: https://codecov.io/gh/sorcio/async_exit_stack
 
 =======================================
 AsyncExitStack backport for Python 3.5+

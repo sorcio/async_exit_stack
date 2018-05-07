@@ -2,12 +2,17 @@
 
 language: python
 python:
+  - 3.7-dev
   - 3.6
   - 3.5
   - pypy3.5
 
 # Command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
-install: pip install -U tox-travis
+install: pip install -U tox-travis codecov
 
 # Command to run tests, e.g. python setup.py test
 script: tox
+
+# Upload reports to Codecov
+after_success:
+- codecov
